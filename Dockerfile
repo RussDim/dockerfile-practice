@@ -1,5 +1,5 @@
 # Docker file for base Jupyter notebook
-# Author: Ruslan
+# Author: Ruslan Dimitrov
 # use jupyter/base-notebook
 # install numpy version 1.23
 
