@@ -1,8 +1,8 @@
-# getting base image ubuntu
-FROM ubuntu
+# Docker file for base Jupyter notebook
+# Author: Ruslan
+# use jupyter/base-notebook
+# install numpy version 1.23
 
-MAINTAINER russ dimitrov <ruslan.d.dim@gmail.com>
+FROM jupyter/base-notebook
 
-RUN apt-get update
-
-CMD ["echo", "Hello there! testing docker image"]
+RUN conda install numpy=1.23
